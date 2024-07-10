@@ -1,0 +1,44 @@
+.gridlist-toggle {
+  /* display: block; */
+  /* clear: both; */
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 !important;
+  padding: 5px 7px 40px !important;
+  line-height: 1em !important;
+}
+.gridlist-toggle a {
+  display: inline-block;
+  padding: .618em;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  text-align: center;
+  text-decoration: none !important;
+  font-weight: 400 !important;
+  font-family: sans-serif !important;
+  font-size: 1em !important;
+  line-height: 1em !important;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.gridlist-toggle a em {
+  display: none;
+}
+.gridlist-toggle a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.gridlist-toggle a.active {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: default;
+  color: inherit;
+}
+.gridlist-toggle .dashicons:before,
+.gridlist-toggle .dashicons {
+  font-size: 1em;
+  line-height: 1;
+  height: 1em;
+  width: 1em;
+}
